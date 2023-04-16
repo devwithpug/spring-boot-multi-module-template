@@ -1,3 +1,5 @@
 plugins {}
 
-dependencies {}
+dependencies {
+    implementation(project(":core"))
+}
